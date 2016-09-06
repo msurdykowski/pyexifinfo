@@ -10,7 +10,7 @@ TESTSDIR = os.path.dirname(os.path.realpath(__file__))
 image = TESTSDIR + '/python-logo-master-v3-TM.png'
 
 def test_version_is_greater_than_8():
-    """ test the version is greater than 8 """
+    """ test the version is greater than 8 tessst"""
     a = p.ver()
     #transforming bytes to string
     a = a[0].decode('utf-8')
